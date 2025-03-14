@@ -52,8 +52,8 @@ const Navbar = () => {
               <Image
                 src="/logo.png"
                 alt="Éclair Bakery"
-                width={120}
-                height={40}
+                width={150}
+                height={50}
                 className="object-contain"
                 priority
               />
@@ -66,12 +66,12 @@ const Navbar = () => {
               {navItems.map((item) => (
                 <motion.div
                   key={item.title}
-                  whileHover={{ y: -2 }}
+                  whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                 >
                   <Link
                     href={item.href}
-                    className="text-gray-800 hover:text-[#e84474] transition-colors px-3 py-2 text-sm font-medium"
+                    className="text-gray-800 hover:text-white hover:bg-[#e84474] transition-all duration-300 px-6 py-3 text-lg font-medium rounded-full backdrop-blur-md bg-white/80 shadow-lg hover:shadow-xl"
                   >
                     {item.title}
                   </Link>
