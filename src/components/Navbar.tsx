@@ -54,7 +54,7 @@ const Navbar = () => {
                 alt="Éclair Bakery"
                 width={150}
                 height={50}
-                className="object-contain"
+                className="object-contain h-12"
                 priority
               />
             </Link>
