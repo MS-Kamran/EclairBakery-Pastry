@@ -452,13 +452,13 @@ const Hero = () => {
                 className="space-y-4"
               >
                 <p className="text-lg text-gray-600">
-                  Welcome to Éclair Bakery & Pastry, where passion meets perfection in every bite. Since our establishment, we've been crafting delightful pastries and cakes that bring joy to our community.
+                  Welcome to Éclair Bakery &amp; Pastry, where passion meets perfection in every bite. Since our establishment, we&apos;ve been crafting delightful pastries and cakes that bring joy to our community.
                 </p>
                 <p className="text-lg text-gray-600">
                   Our master bakers combine traditional techniques with innovative flavors, ensuring each creation is a masterpiece of taste and presentation. We take pride in using only the finest ingredients and maintaining the highest standards of quality.
                 </p>
                 <p className="text-lg text-gray-600">
-                  At Éclair, we believe in making moments sweeter, one pastry at a time. Whether it's a special celebration or a simple craving, we're here to serve you the very best.
+                  At Éclair, we believe in making moments sweeter, one pastry at a time. Whether it&apos;s a special celebration or a simple craving, we&apos;re here to serve you the very best.
                 </p>
               </motion.div>
             </div>
