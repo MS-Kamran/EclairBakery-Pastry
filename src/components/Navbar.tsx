@@ -40,28 +40,28 @@ const Navbar = () => {
         !isScrollingUp && scrollY > 50 ? '-translate-y-full' : 'translate-y-0'
       }`}
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-20">
+      <div className="max-w-7xl mx-0 px-0">
+        <div className="flex justify-between items-start h-32">
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.5 }}
-            className="flex-shrink-0"
+            className="flex-shrink-0 -ml-12 -mt-4"
           >
-            <Link href="/" className="flex items-center">
+            <Link href="/" className="flex items-start">
               <Image
                 src="/logo.png"
                 alt="Éclair Bakery"
-                width={150}
-                height={50}
-                className="object-contain h-12"
+                width={700}
+                height={233}
+                className="object-contain h-32 scale-125 -ml-6"
                 priority
               />
             </Link>
           </motion.div>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:block">
+          <div className="hidden md:block pt-6 pr-8">
             <div className="flex space-x-8">
               {navItems.map((item) => (
                 <motion.div
@@ -71,7 +71,7 @@ const Navbar = () => {
                 >
                   <Link
                     href={item.href}
-                    className="text-gray-800 hover:text-white hover:bg-[#e84474] transition-all duration-300 px-6 py-3 text-lg font-medium rounded-full backdrop-blur-md bg-white/80 shadow-lg hover:shadow-xl"
+                    className="text-gray-800 hover:text-white hover:bg-[#ff6b6b] transition-all duration-300 px-6 py-3 text-lg font-medium rounded-full backdrop-blur-md bg-[#e84474]/10 shadow-lg hover:shadow-xl"
                   >
                     {item.title}
                   </Link>
