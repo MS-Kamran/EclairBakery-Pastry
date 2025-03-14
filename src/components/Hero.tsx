@@ -50,7 +50,7 @@ const Hero = () => {
       setCurrentImageIndex((prev) => (prev + 1) % images.length);
     }, 3000);
     return () => clearInterval(timer);
-  }, []);
+  }, [images.length]);
 
   return (
     <>
