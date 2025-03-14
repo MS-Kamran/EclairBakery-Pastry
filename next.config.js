@@ -4,7 +4,9 @@ const nextConfig = {
     images: {
         unoptimized: true,
     },
-    basePath: process.env.NODE_ENV === 'production' ? '/eclair-bakery' : '',
+    basePath: process.env.NODE_ENV === 'production' ? '/EclairBakery-Pastry' : '',
+    assetPrefix: process.env.NODE_ENV === 'production' ? '/EclairBakery-Pastry/' : '',
+    trailingSlash: true,
 }
 
 module.exports = nextConfig 
